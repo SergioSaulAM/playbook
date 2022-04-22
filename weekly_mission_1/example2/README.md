@@ -1,0 +1,1 @@
+# Example 2: Exportando funciones entre scripts con CommonJS
