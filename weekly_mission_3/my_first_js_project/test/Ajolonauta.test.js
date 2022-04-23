@@ -6,6 +6,6 @@ describe("Pruebas de unidad de Ajolonauta", () => {
         const woopa = new Ajolonauta("Woopa");
 
         //Validar el resultado esperado
-        expect(woopa.name).toBe("Woopa!!!!");
+        expect(woopa.name).toBe("Woopa");
     }) 
 })
