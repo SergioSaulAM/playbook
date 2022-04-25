@@ -8,7 +8,7 @@ class SpiderMan {
     }
 
     getInfo() {
-        console.log(`Hey, I'm ${this.name} from ${this.studio}`);
+        console.log(`Hey, I'm ${this.actor} from ${this.studio}`);
     }
 }
 
