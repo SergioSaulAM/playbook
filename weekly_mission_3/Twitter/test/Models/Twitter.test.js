@@ -3,7 +3,7 @@ const User = require('../../app/Models/User');
 describe('Prueba de twitter', () => {
     test('LastUpdate User is OK', () => {
         const User1 = new User(1, 'Juanito', 'Juan', 'Lorem Ipsum', '25/04/2015');
-        expect(User1.lastUpdate).not.toBeUndefined();
+        expect(User1.lastUpdated).not.toBeUndefined();
     })
 
     test('User username is OK', () => {
