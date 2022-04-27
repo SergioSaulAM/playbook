@@ -20,4 +20,14 @@ describe('Prueba de twitter', () => {
         const User1 = new User(1, 'Juanito', 'Juan', 'Lorem Ipsum', '25/04/2015');
         expect(User1.bio).toBe('Lorem Ipsum');
     })
+
+    test('User username is OK with Getters', () => {
+        const User1 = new User(1, 'Juanito', 'Juan', 'Lorem Ipsum', '25/04/2015');
+        expect('Juanito').toBe(User1.getUsername);
+    })
+
+    test('User Bio is OK with Getters', () => {
+        const User1 = new User(1, 'Juanito', 'Juan', 'Lorem Ipsum', '25/04/2015');
+        expect('Lorem Ipsum').toBe(User1.bio);
+    })    
 })
